@@ -21,6 +21,7 @@ phases:
     build:
         commands:
             - echo "we are currently on build phase"
+	    - echo "build is triggered automatically using amazon event bridge"
             - echo "Build Activity is completed"
             - echo "Run Basic check whether Website is ready for use"
             - grep -Fq "AWS Certified DevOps Engineer" index.html
